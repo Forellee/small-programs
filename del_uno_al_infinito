@@ -1,0 +1,5 @@
+nums = 0
+with open('nums.txt', 'w') as file:
+    while True:
+        file.write(str(nums) + '\n')
+        nums += 1
